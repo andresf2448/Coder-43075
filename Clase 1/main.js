@@ -34,11 +34,15 @@ bloque
 // let nombre = prompt("ingrese su nombre");
 // alert("Hola " + nombre);
 
-let numero = parseFloat(prompt("Ingrese un numero"));
-alert(numero + 5)
+// let numero = parseFloat(prompt("Ingrese un numero"));
+// alert(numero + 5)
 
 /* 
 parseInt  pasa un string con un numero entero a un number
 parseFloat  pasa un string con un decimal a un numero decimal de tipo number
 Number  hace el papel tanto del parseFloat como el parseInt
 */
+
+let numero = parseInt(prompt("¿en que año naciste?"));
+let resta = 2023 - numero;
+alert("ahora tienes" + resta + "años");
