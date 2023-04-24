@@ -56,33 +56,57 @@ function nombreFuncion(parm1, parm2, ..., parmn){
 
 // saludar()
 
-function calculadora(numero1, numero2, operacion) {
-  switch (operacion) {
-    case "+":
-      return numero1 + numero2;
-      break;
+// function calculadora(numero1, numero2, operacion) {
+//   switch (operacion) {
+//     case "+":
+//       return numero1 + numero2;
+//       break;
 
-    case "-":
-      return numero1 - numero2;
-      break;
+//     case "-":
+//       return numero1 - numero2;
+//       break;
 
-    case "*":
-      return numero1 * numero2;
-      break;
+//     case "*":
+//       return numero1 * numero2;
+//       break;
 
-    case "/":
-      return numero1 / numero2;
-      break;
+//     case "/":
+//       return numero1 / numero2;
+//       break;
 
-    default:
-      return "Operacion no encontrada";
-      break;
-  }
-}
+//     default:
+//       return "Operacion no encontrada";
+//       break;
+//   }
+// }
 
-let numero1 = parseInt(prompt("Ingrese el numero uno"));
-let numero2 = parseInt(prompt("Ingrese el numero dos"));
-let operacion = prompt("Ingrese la operacion");
+// let numero1 = parseInt(prompt("Ingrese el numero uno"));
+// let numero2 = parseInt(prompt("Ingrese el numero dos"));
+// let operacion = prompt("Ingrese la operacion");
 
-let resultado = calculadora(numero1, numero2, operacion);
-alert(`El resultado de ${numero1} ${operacion} ${numero2} = ${resultado}`);
+// let resultado = calculadora(numero1, numero2, operacion);
+// alert(`El resultado de ${numero1} ${operacion} ${numero2} = ${resultado}`);
+
+/* 
+crear una funcion que reciba por parametro un numero y retorne true si es par y false si es impar
+
+crear una fucnion que reciba un nombre y la edad y retone cualquier mensaje que involucre estos dos parametros
+*/
+
+// function sumar(num1, num2) {
+//   return num1 + num2;
+// }
+
+// function par(numero){
+//   if (numero % 2 === 0){
+//     return true;
+//   }else{
+//     return false;
+//   }
+// }
+
+// function email(nombre, edad){
+//   //codigo para envío del correo
+//   return `Hola Bienvenid@ ${nombre} a nuestra comunidad, tienes ${edad} años`;
+// }
+
