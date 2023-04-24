@@ -110,3 +110,66 @@ crear una fucnion que reciba un nombre y la edad y retone cualquier mensaje que 
 //   return `Hola Bienvenid@ ${nombre} a nuestra comunidad, tienes ${edad} años`;
 // }
 
+// let resultado = 0;
+
+// function sumar(numero1, numero2){
+//   let resultado = numero1 + numero2;
+// }
+
+// sumar(5, 2);
+// console.log(resultado);
+
+// let nombre = "juan";
+
+// function saludar(){
+//   let nombre = "camila";
+//   console.log(nombre);
+// }
+
+// console.log(nombre);
+
+// saludar();
+
+// console.log(nombre);
+
+// function sumar(numero1, numero2){
+//   let resultado = numero1 + numero2;
+//   return resultado;
+// }
+
+// function restar(numero1, numero2){
+//   let resultado = numero1 - numero2;
+//   return resultado;
+// }
+
+// const suma = function (a, b) {
+//   return a + b;
+// };
+
+// console.log(suma(4, 5));
+
+// const suma = (a, b) => {
+//   return a + b;
+// };
+
+// x => x
+// () => {return "hola"}
+
+// console.log(suma(4, 5));
+
+// const suma = (a, b) => a + b;
+
+// console.log(suma(3, 4));
+
+const suma = (a, b) => a + b;
+const resta = (a, b) => a - b;
+const iva = x => x * 0.21;
+
+const precioProducto = 1000;
+const descuento = 10;
+
+let nuevoPrecio = resta(suma(precioProducto, iva(precioProducto)), descuento);
+                = resta(suma(1000, iva(1000)), 10);
+                = resta(suma(1000, 210), 10);
+                = resta(1210, 10);
+                = 1200;
