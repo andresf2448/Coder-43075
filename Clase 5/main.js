@@ -113,22 +113,36 @@ estructura de un objeto
 // const persona1 = new Persona("pepito", 45, "AV");
 // persona1.hablar("Bienvenido");
 
-class Producto{
-  constructor(nombre, precio){
-    this.nombre = nombre;
-    this.precio = precio;
-    this.vendido = false;
-  }
+// class Producto{
+//   constructor(nombre, precio){
+//     this.nombre = nombre;
+//     this.precio = precio;
+//     this.vendido = false;
+//   }
 
-  vender(){
-    this.vendido = true;
-  }
+//   vender(){
+//     this.vendido = true;
+//   }
+// }
+
+// const producto1 = new Producto("camisa", 1000);
+// const producto2 = new Producto("zapato", 1001);
+// console.log(producto1);
+
+// producto1.vender();
+// console.log(producto1);
+// console.log(producto2);
+
+class Libros{
+  constructor(autorInicial, tituloInicial, precioInicial){
+    this.autor = autorInicial;
+    this.titulo = tituloInicial;
+    this.precio = precioInicial;
+    this.ingreso = false;
+  };
+  
+  ingreso(){
+    this.ingreso = true;
+    console.log(`se ingresa el libro ${this.titulo}`);
+  };
 }
-
-const producto1 = new Producto("camisa", 1000);
-const producto2 = new Producto("zapato", 1001);
-console.log(producto1);
-
-producto1.vender();
-console.log(producto1);
-console.log(producto2);
