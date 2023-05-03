@@ -106,13 +106,18 @@ class Producto {
     this.nombre = nombre;
     this.precio = precio;
   }
+
+  ingreso(){
+    
+  }
 }
 
 const productos = [];
 
 const producto1 = new Producto("camisa", 1000);
 const producto2 = new Producto("pantalon", 1100);
-
+console.log(producto1.nombre);
+console.log(producto2.nombre);
 productos.push(producto1);
 productos.push(producto2);
 
