@@ -101,24 +101,34 @@ estructura de un arreglo
 //   console.log(item.nombre);
 // }
 
-class Producto {
-  constructor(nombre, precio) {
-    this.nombre = nombre;
-    this.precio = precio;
-  }
+// class Producto {
+//   constructor(nombre, precio) {
+//     this.nombre = nombre;
+//     this.precio = precio;
+//   }
 
-  ingreso(){
-    
-  }
-}
+//   ingreso(){
 
-const productos = [];
+//   }
+// }
 
-const producto1 = new Producto("camisa", 1000);
-const producto2 = new Producto("pantalon", 1100);
-console.log(producto1.nombre);
-console.log(producto2.nombre);
-productos.push(producto1);
-productos.push(producto2);
+// const productos = [];
 
-console.log(productos);
+// const producto1 = new Producto("camisa", 1000);
+// const producto2 = new Producto("pantalon", 1100);
+// console.log(producto1.nombre);
+// console.log(producto2.nombre);
+// productos.push(producto1);
+// productos.push(producto2);
+
+// console.log(productos);
+
+// const libros = [
+//   { nombre: "asdfasdf", precio: 1230, id: 1 },
+//   { nombre: "asdfasdf", precio: 1230, id: 2 },
+//   { nombre: "asdfasdf", precio: 1230, id: 3 },
+// ];
+
+const libros1 = ["libro1", "libro2", "libro3"];
+
+
