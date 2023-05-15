@@ -26,16 +26,56 @@
 // console.log(divs[1].innerHTML);
 // console.log(divs[2].innerHTML);
 
-let saludo = document.getElementById("saludo");
-let seccion = prompt("Ingrese la seccion");
+// let saludo = document.getElementById("saludo");
+// let seccion = prompt("Ingrese la seccion");
 
-if (seccion === "carrito") {
-  saludo.innerHTML = "<h1>Bienvenidos al carrito</h1>";
-  saludo.className = "rojo";
-} else if (seccion === "favoritos") {
-  saludo.innerHTML = "<h1>Bienvenidos a favoritos</h1>";
-  saludo.className = "azul";
-} else {
-  saludo.innerHTML = "<h1>Bienvenidos a nuestra super página</h1>";
-  saludo.className = "verde";
-}
+// if (seccion === "carrito") {
+//   saludo.innerHTML = "<h1>Bienvenidos al carrito</h1>";
+//   saludo.className = "rojo";
+// } else if (seccion === "favoritos") {
+//   saludo.innerHTML = "<h1>Bienvenidos a favoritos</h1>";
+//   saludo.className = "azul";
+// } else {
+//   saludo.innerHTML = "<h1>Bienvenidos a nuestra super página</h1>";
+//   saludo.className = "verde";
+// }
+
+//CREACIÓN DE NODOS
+// let contenedor = document.getElementById("contenedor");
+// let parrafo = document.createElement("p"); // Creación de la etiqueta
+// parrafo.innerHTML = "<h1>Hola a todos</h1>"; //Asignación de contenido
+// document.body.append(parrafo);
+// contenedor.append(parrafo);
+
+// let saludo = document.getElementById("saludo");
+// saludo.remove();
+
+// const personas = ["juan", "pepito", "mariana", "andres", "camila"];
+// let contenedor = document.getElementById("contenedor");
+
+// personas.forEach(item => {
+//   let li = document.createElement("li");
+//   li.innerHTML = item;
+//   contenedor.append(li);
+// });
+
+const productos = [
+  { id: 1, nombre: "camisa", precio: 1000 },
+  { id: 2, nombre: "zapato", precio: 1000 },
+  { id: 3, nombre: "gorra", precio: 1000 },
+  { id: 4, nombre: "media", precio: 1000 },
+  { id: 4, nombre: "media", precio: 1000 },
+];
+let contenedor = document.getElementById("contenedor");
+
+productos.forEach((item) => {
+  let div = document.createElement("div");
+  div.innerHTML = `
+    <h2>Id: ${item.id}</h2>
+    <p>Nombre: ${item.nombre}</p>
+    <b>$${item.precio}</b>
+    <hr />
+  `;
+
+  contenedor.append(div);
+});
