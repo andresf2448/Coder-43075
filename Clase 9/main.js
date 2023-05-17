@@ -59,23 +59,27 @@
 //   contenedor.append(li);
 // });
 
-const productos = [
-  { id: 1, nombre: "camisa", precio: 1000 },
-  { id: 2, nombre: "zapato", precio: 1000 },
-  { id: 3, nombre: "gorra", precio: 1000 },
-  { id: 4, nombre: "media", precio: 1000 },
-  { id: 4, nombre: "media", precio: 1000 },
-];
-let contenedor = document.getElementById("contenedor");
+// const productos = [
+//   { id: 1, nombre: "camisa", precio: 1000 },
+//   { id: 2, nombre: "zapato", precio: 1000 },
+//   { id: 3, nombre: "gorra", precio: 1000 },
+//   { id: 4, nombre: "media", precio: 1000 },
+//   { id: 4, nombre: "media", precio: 1000 },
+// ];
+// let contenedor = document.getElementById("contenedor");
 
-productos.forEach((item) => {
-  let div = document.createElement("div");
-  div.innerHTML = `
-    <h2>Id: ${item.id}</h2>
-    <p>Nombre: ${item.nombre}</p>
-    <b>$${item.precio}</b>
-    <hr />
-  `;
+// productos.forEach((item) => {
+//   let div = document.createElement("div");
+//   div.innerHTML = `
+//     <h2>Id: ${item.id}</h2>
+//     <p>Nombre: ${item.nombre}</p>
+//     <b>$${item.precio}</b>
+//     <hr />
+//   `;
 
-  contenedor.append(div);
-});
+//   contenedor.append(div);
+// });
+
+// let numero = 5;
+
+// numero += 10; // numero = numero + 10;
