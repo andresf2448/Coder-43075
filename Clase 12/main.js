@@ -163,7 +163,18 @@ operador1 || operador2 retorna operador1 si este representa true en caso contrar
 // let objeto = { id: 1, nombre: "camisa", precio: 100 };
 // destructuracion(objeto);
 
-const nombres = ["juan", "melina", "pedro", "pablo"];
+// const nombres = ["juan", "melina", "pedro", "pablo"];
 
-const [ , a, , b] = nombres;
-console.log(a, b);
+// const [ , a, , b] = nombres;
+// console.log(a, b);
+
+// let personas = [{ nombre: "juan" }];
+
+// let [a] = personas;
+// let { nombre } = a;
+
+// console.log(nombre);
+
+[{ nombre: "juan" }].forEach(item =>{
+  const {nombre} = item;
+})
