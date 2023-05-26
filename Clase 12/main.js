@@ -129,22 +129,22 @@ operador1 || operador2 retorna operador1 si este representa true en caso contrar
 // let { nombre, edad, direccion } = usuario1;
 // console.log(nombre, edad, direccion);
 
-// const usuario = {
-//   nombre: "John Doe",
-//   edad: 32,
-//   telefono: {
-//     cel: 113334444,
-//     casa: null,
-//     trabajo: 113325555,
-//   },
-// };
+const usuario = {
+  nombre: "John Doe",
+  edad: 32,
+  telefono: {
+    cel: 113334444,
+    casa: null,
+    trabajo: 113325555,
+  },
+};
 
-// const {
-//   nombre,
-//   telefono: { trabajo },
-// } = usuario;
+const {
+  nombre,
+  telefono: { trabajo },
+} = usuario;
 
-// console.log(nombre, trabajo);
+console.log(nombre, trabajo);
 
 // const usuario1 = {
 //   nombre: "juan",
