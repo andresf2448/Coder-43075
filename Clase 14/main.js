@@ -144,12 +144,12 @@ let boton = document.getElementById("boton");
 // const resta = now.minus({ month: 1, days: 1 });
 // console.log(resta.toLocaleString(DateTime.DATETIME_SHORT));
 
-const DateTime = luxon.DateTime;
-const Interval = luxon.Interval;
-const now = DateTime.now();
-const navidad = DateTime.local(2023, 12, 24);
+// const DateTime = luxon.DateTime;
+// const Interval = luxon.Interval;
+// const now = DateTime.now();
+// const navidad = DateTime.local(2023, 12, 24);
 
-const i = Interval.fromDateTimes(now, navidad);
-console.log(i.length('days'));
-console.log(i.length('hours'));
-console.log(i.length('minutes'));
+// const i = Interval.fromDateTimes(now, navidad);
+// console.log(i.length('days'));
+// console.log(i.length('hours'));
+// console.log(i.length('minutes'));
